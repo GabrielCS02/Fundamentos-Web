@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
     <!-- Comentários são feitos assim -->
     <h1>About Me</h1>
-    <h3>Olá! Me chamo Gabriel Costa, sou um morador de Cotia com uma criatividade abaixo da média quando o assunto é personalizar meu próprio site, por isso, atráves desta página, tento expressar um pouco do quão gratificante é deixar alguma coisa com o seu "Rosto" se por assim dizer.</h3>
-    <br>
-    <br>
-    <h3>Uma das minhas coisas preferidas é fazer as pessoas rirem, seja por alguma coisa engraçada que disse, ou por imagens como essa:</h3>
-    <img src="./assets/Pato.jpg" alt="Lanso a braba gringo">
+    <div class="container">
+        <img class="br-50 wh-300 p-30" src="./assets/Pato.jpg" alt="Lanso a braba gringo">
+    <div class="p-30">
+        <p class = "justify">Olá! Me chamo Gabriel Costa, sou um morador de Cotia com uma criatividade abaixo da média quando o assunto é personalizar meu próprio site, por isso, atráves desta página, tento expressar um pouco do quão gratificante é deixar alguma coisa com o seu "Rosto" se por assim dizer.</p>
 
+        <p class = "justify">Uma das minhas coisas preferidas é fazer as pessoas rirem, seja por alguma coisa engraçada que disse, ou por imagens como essa:</p>
+    
+    </div>
+    </div>
     <h2>O meu vídeo preferido expressa um pouco sobre como é a situação de um príncipe brasileiro:</h2>
     
+    <div class="container">
     <iframe width="560" 
     height="315" 
     src="https://www.youtube.com/embed/Vwo1miUjDSc" 
@@ -28,13 +36,29 @@
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
-    <br>
-    <br>
-    <h2>Este site e todas as suas funcionalidade foram inicialmente desenvolvidos usando a linguagem de marcação:</h2>
-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="300" height="300">
-
-   <h2>Os futuros projetos terão neles mais uma linguagem de marcação e uma linguagem de programação:</h2>
+    </div>
+    
+    
+    <h2>Este site e todas as suas funcionalidade foram inicialmente desenvolvidos usando as linguagens de marcação:</h2>
+     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="300" height="300">
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="300" height="300">
+
+   <h2>Os futuros projetos terão neles uma linguagem de programação:</h2>
    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="300" height="300">
+
+   <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/gabrielcs02/">
+                <img class="tm-rs p-30" src="./assets/linkedin.png" alt="Logo LinkedIn"></a>
+
+            <a href="https://www.youtube.com/channel/UCCXKjfY4oenxkUSYqdg6XTg" > 
+                <img class="tm-rs p-30" src="./assets/youtube.png" alt="Logo Youtube"></a>
+        </div>
+        <p class="container">
+        All rights reserved to Gabriel Costa &copy;
+        </p>
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,97 @@
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem 0;
+    width: 100%;
+}
+
+.campo label{
+    font-size: 1.275rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input, .campo textarea{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 0;
+    border-bottom: 1px solid rebeccapurple;
+}
+
+button{
+    width: 42%;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 1.250rem;
+    border-radius: 1rem;
+    border: 2.5px solid rebeccapurple;
+    background: transparent;
+    transition: .3s;
+}
+
+button:hover{
+    background: rebeccapurple;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: darkgrey
+}
+
+#menu li a:hover{
+    color: black;
+}
+
+.p-30{
+    padding: 1.875rem;
+    font-size: 1.5rem;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300{
+    width:18.75rem ;
+    height: 18.75rem;
+}
+
+.tm-rs{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.mb-50{
+    margin-bottom: 3.125rem;
+}
+
+.ml-50{
+    margin-left: 3.125rem;
+}

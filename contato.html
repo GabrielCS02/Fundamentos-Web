@@ -5,50 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+    <nav>
+        <ul class="menu" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+    
+            <!-- li*4>a faz 4 itens de lista com link dentro deles-->
+        </ul>
+    </nav>
 
-        <!-- li*4>a faz 4 itens de lista com link dentro deles-->
-    </ul>
+    <h1 class="container">Entre em contato com o Costa</h1>
 
-    <h1>Entre em contato com o Costa</h1>
-    <img src="./assets/perfil.jpg" alt="Foto de Perfil" width="400" height="500">
+  
+    <div class="container">
+        <h2>Mande uma mensagem</h2>
+        <form>
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome">
+            </div>
+              
+             <div class="campo">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email">
+             </div>
+              
+             <div class="campo">
+              <label for="assunto">Assunto:</label>
+              <textarea name="assunto" id="assunto" rows="5"></textarea>
+             </div>
+             
+              <button>Enviar</button>
+          </form>
+    </div>
+
+    <img class="wh-300 br-50"  src="./assets/perfil.jpg" alt="Foto de Perfil" width="400" height="500">
     <h2><a href="https://www.linkedin.com/in/gabrielcs02/">LinkedIn</a></h2>
     <h2> <a href="https://github.com/GabrielCS02/">GitHub </a></h2>
-    <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="50" rows="15"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    
 
-    <h2>Endereço: </h2>
-
+    <div class ="ml-50"> 
+       
     <p>Rua Lourdes Dalmonick da Silva, 115</p>
     <p>Cotia- SP</p>
 
-    <iframe 
+    <div class="container mb-50">
+        <iframe 
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.339320998229!2d-46.926091784393684!3d-23.592160668616877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf076a96ba2e4f%3A0x24d3831f642b943f!2sR.%20Lourdes%20Dalmonick%20da%20Silva%20-%20Cotia%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1641829401745!5m2!1spt-BR!2sbr" 
     width="800" 
     height="600" 
     style="border:0;" 
     allowfullscreen="" 
     loading="eager"></iframe>
+    </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/gabrielcs02/">
+                <img class="tm-rs p-30" src="./assets/linkedin.png" alt="Logo LinkedIn"></a>
+
+            <a href="https://www.youtube.com/channel/UCCXKjfY4oenxkUSYqdg6XTg" > 
+                <img class="tm-rs p-30" src="./assets/youtube.png" alt="Logo Youtube"></a>
+        </div>
+        <p class="container">
+        All rights reserved to Gabriel Costa &copy;
+        </p>
+    </footer>
 </body>
 </html>
