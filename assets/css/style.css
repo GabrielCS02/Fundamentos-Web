@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+}
 
 form{
     display: flex;
@@ -38,12 +44,51 @@ button{
     transition: .3s;
 }
 
+.links:hover{
+    color: darkslategrey;
+    }
+
 button:hover{
     background: rebeccapurple;
 }
 
+.font{
+    font-size: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
 .justify{
     text-align: justify;
+}
+
+.img{
+    border-radius: 50%;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1.70rem;
+}
+
+.container2{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: left;
+    justify-content: flex-start;
+    font-size: 2rem;
+    padding-bottom: 5rem;
+}
+
+.container3{
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: left;
+    justify-content: flex-start;
+    font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 .container{
@@ -51,6 +96,8 @@ button:hover{
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    font-size: 2.15rem;
+    padding-bottom: 6rem;
 }
 
 #menu li{
@@ -94,4 +141,10 @@ button:hover{
 
 .ml-50{
     margin-left: 3.125rem;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
