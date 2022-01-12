@@ -26,20 +26,23 @@
             <h2>Mande uma mensagem</h2>
             <div class="campo">
               <label for="nome">Nome:</label>
-              <input type="text" id="nome">
+              <input type="text" id="nome" onkeyup="validaNome()">
+              <div id="txtNome" ></div>
             </div>
               
              <div class="campo">
               <label for="email">E-mail:</label>
-              <input type="email" id="email">
+              <input type="email" id="email" onkeyup="validaEmail()">
+              <div id="txtEmail" ></div>
              </div>
               
              <div class="campo">
               <label for="assunto">Assunto:</label>
-              <textarea name="assunto" id="assunto" rows="5"></textarea>
+              <textarea name="assunto" id="assunto" rows="5" onkeyup="validaAssunto()"></textarea>
+              <div id="txtAssunto"></div>
              </div>
              
-              <button>Enviar</button>
+              <button onclick="enviar()">Enviar</button>
           </form>
     <div class="center font">
         <p>Rua Lourdes Dalmonick da Silva, 115</p>
@@ -53,7 +56,7 @@
     height="600" 
     style="border:5;" 
     allowfullscreen="" 
-    loading="eager"></iframe>
+    loading="eager" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="mapa"></iframe>
     </div> 
     </div>
     </div>
@@ -74,5 +77,7 @@
         All rights reserved to Gabriel Costa &copy;
         </p>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
